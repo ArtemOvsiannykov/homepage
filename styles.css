@@ -164,7 +164,8 @@ Intro and skills styles
   text-align: justify;
 }
 
-.skills__header {
+.skills__header,
+.intro__header {
   color: var(--secondary-text-color);
   text-align: center;
   margin-bottom: 15px;
