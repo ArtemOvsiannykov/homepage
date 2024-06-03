@@ -127,8 +127,8 @@ Contact info styles
 
 .contact-info__avatar {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border: 3px solid;
   border-color: var(--text-decoration-color);
@@ -182,12 +182,11 @@ Experience and additional info styles
 
 .experiences {
   flex: 1 1 60%;
-  margin-right: 50px;
 }
 
 .experiences__header {
   color: var(--secondary-text-color);
-  text-align: left;
+  text-align: center;
   margin-bottom: 20px;
 }
 
@@ -203,7 +202,6 @@ Experience and additional info styles
   text-decoration-color: var(--text-decoration-color);
   text-decoration-line: underline;
   text-align: left;
-  margin-bottom: 20px;
 }
 
 .experiences__company-project {
@@ -229,10 +227,6 @@ Experience and additional info styles
   padding-left: 20px;
 }
 
-.additional-info {
-  flex: 1 1 40%;
-}
-
 .additional-info__education {
   margin-bottom: 20px;
 }
@@ -241,6 +235,10 @@ Experience and additional info styles
   color: var(--secondary-text-color);
   text-align: left;
   margin-bottom: 20px;
+}
+
+.additional-info__education-university {
+  margin-bottom: 10px;
 }
 
 .additional-info__education-university-durability {
